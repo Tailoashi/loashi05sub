@@ -45,7 +45,7 @@ await Promise.all([
     ...stdlib.hasRandom,
     nftid: NFT.id,
     winning_number: parseInt(17),
-    maxnumoftickets: parseInt(6),
+    maxnumoftickets: parseInt(200),
     seewinnum: async (dig) => {
       console.log(` The hashed value: ${dig}`)
     },
